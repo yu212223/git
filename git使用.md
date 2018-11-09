@@ -1,11 +1,11 @@
-git config --global user.name "yu212223"
-git config --global user.email "charlebround@163.com"
+git config --global user.name "username"  
+git config --global user.email "useremail"  
 
 cd /a/b
 git init
 
 mkdir ~/.ssh
-ssh-keygen -t rsa -b 4096 -C "charlebround@163.com"
+ssh-keygen -t rsa -b 4096 -C "useremail"
 
 https://github.com/settings/keys
 
@@ -13,5 +13,5 @@ add ssh key
 
 ssh -T git@github.com
 
-git remote add origin git@github.com:yu212223/git.git
+git remote add origin git@github.com:repositories
 git push -u origin master
